@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const dataRoutes = require('./routes/data.routes')
+const path = require('path')
 const app = express();
 
 app.use(cors());
